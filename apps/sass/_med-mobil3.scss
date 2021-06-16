@@ -1,0 +1,45 @@
+@media screen and(max-width:376px) {
+  body {
+    padding: 88px 25px;
+  }
+  .card {
+    flex-direction: column-reverse;
+
+    &__second,
+    &__texts {
+      width: 100%;
+      display: block;
+    }
+    &__texts {
+      padding: 45px 35px 0px 35px;
+      width: 100%;
+      text-align: center;
+    }
+    & .heading {
+      font-size: 1.75rem;
+    }
+    & .para {
+      line-height: 1.7;
+      margin-top: 24px;
+      padding-right: 0;
+      font-size: 14px;
+    }
+    & .stats__box {
+      display: block;
+      width: 100%;
+      margin-bottom: 45px;
+    }
+    &__second {
+      order: 2;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 0px;
+      height: 240px;
+      & .imgs {
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
